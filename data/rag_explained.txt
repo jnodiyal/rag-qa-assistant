@@ -1,0 +1,7 @@
+Retrieval-Augmented Generation Explained
+
+Large language models can produce fluent answers but they sometimes hallucinate, meaning they state facts that are wrong, and they do not know about private or recent information. Retrieval-augmented generation, or RAG, addresses this by fetching relevant passages from an external knowledge source and giving them to the model together with the question, so the answer is grounded in real documents.
+
+A RAG system has an indexing stage and a query stage. During indexing, documents are split into chunks, usually a few hundred words each, with some overlap so that sentences at the boundaries are not lost. Each chunk is converted into an embedding, a numeric vector that captures its meaning, and stored in a vector store such as FAISS or Chroma.
+
+At query time, the question is embedded and the vector store returns the most similar chunks. These chunks are placed into the prompt, and the language model writes an answer that cites them. Quality is evaluated by checking whether the right passage was retrieved and whether the final answer is correct and faithful to the sources. Tuning chunk size, overlap, and the number of retrieved passages often improves results.
