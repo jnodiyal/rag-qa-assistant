@@ -1,0 +1,7 @@
+Data Pipelines
+
+A data pipeline moves data from source systems to a place where it can be analyzed. The classic pattern is ETL: extract data from sources such as APIs, files, or databases, transform it by cleaning, joining, and reshaping, and load it into a warehouse or database. In ELT, raw data is loaded first and transformed inside the warehouse.
+
+Reliable pipelines include validation checks at each stage. Checks look for missing values, duplicate rows, wrong data types, and values outside expected ranges. When a check fails, the pipeline should log the problem and stop or quarantine the bad data so that it does not reach dashboards or machine learning models.
+
+Pipelines should run automatically on a schedule rather than by hand. Simple options are cron jobs or GitHub Actions workflows, while larger teams use orchestrators such as Apache Airflow. Good practice also includes monitoring, retries on failure, and alerts, which together make the platform reliable. Running pipelines in the cloud, for example on AWS, allows them to scale with data volume.
