@@ -1,0 +1,14 @@
+[
+  {"question": "What is the difference between supervised and unsupervised learning?", "source": "machine_learning_basics.txt", "keywords": ["labeled", "unlabeled"]},
+  {"question": "Why do we split data into training and test sets?", "source": "machine_learning_basics.txt", "keywords": ["unseen", "overfitting"]},
+  {"question": "What metric is commonly used to evaluate forecasts?", "source": "machine_learning_basics.txt", "keywords": ["MAPE", "RMSE"]},
+  {"question": "What are the main dimensions of data quality?", "source": "data_quality_governance.txt", "keywords": ["accuracy", "completeness"]},
+  {"question": "What does a data steward do?", "source": "data_quality_governance.txt", "keywords": ["steward"]},
+  {"question": "What is master data management?", "source": "data_quality_governance.txt", "keywords": ["master data", "single"]},
+  {"question": "What problem does retrieval-augmented generation solve?", "source": "rag_explained.txt", "keywords": ["hallucinat", "external"]},
+  {"question": "How are documents split before being embedded?", "source": "rag_explained.txt", "keywords": ["chunk", "overlap"]},
+  {"question": "What is a vector store used for in a RAG system?", "source": "rag_explained.txt", "keywords": ["similar", "embedding"]},
+  {"question": "What is an ETL data pipeline?", "source": "data_pipelines.txt", "keywords": ["extract", "transform", "load"]},
+  {"question": "Why should pipelines include validation checks?", "source": "data_pipelines.txt", "keywords": ["validation", "bad data"]},
+  {"question": "How can pipelines be scheduled automatically?", "source": "data_pipelines.txt", "keywords": ["schedul", "cron"]}
+]
