@@ -1,0 +1,7 @@
+Data Quality and Governance
+
+Data quality describes how fit data is for its intended use. Its main dimensions are accuracy, completeness, consistency, timeliness, uniqueness, and validity. Accuracy means values reflect reality. Completeness means required fields are not missing. Consistency means the same fact matches across systems. Timeliness means data is available when needed, uniqueness means no duplicate records, and validity means values follow expected formats and rules.
+
+Data governance is the set of policies, roles, and processes that keep enterprise data trusted, secure, and reliable. A data owner is accountable for a dataset, while a data steward looks after its day-to-day quality, definitions, and access rules. Governance also covers privacy, security controls, and audit trails showing who changed what.
+
+Master data management, or MDM, creates a single trusted version of core business entities such as customers, products, and suppliers. Without it, the same customer may appear with different spellings in different systems. MDM matches and merges duplicate records into a golden record that all downstream analytics and AI applications can rely on.
