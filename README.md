@@ -49,6 +49,6 @@ data/docs/       sample documents
 ## Demo
 
 ![RAG QA Assistant](assets/rag-qa-demo.png)
-
+![FastAPI API Documentation](api-docs.png)
 ## Ideas for next steps
 Re-ranking, hybrid (keyword + vector) search, a React front end, conversation memory, Docker deployment on AWS.
