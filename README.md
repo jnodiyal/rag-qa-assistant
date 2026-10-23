@@ -46,5 +46,9 @@ eval/            test questions and evaluation script
 data/docs/       sample documents
 ```
 
+## Demo
+
+![RAG QA Assistant](assets/rag-qa-demo.png)
+
 ## Ideas for next steps
 Re-ranking, hybrid (keyword + vector) search, a React front end, conversation memory, Docker deployment on AWS.
