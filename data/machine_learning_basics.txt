@@ -1,0 +1,7 @@
+Machine Learning Basics
+
+Machine learning lets computers learn patterns from data instead of following hand-written rules. Supervised learning trains a model on labeled data, where each example has a known answer, such as house prices or spam labels. Unsupervised learning works with unlabeled data and finds structure on its own, for example by clustering customers into similar groups.
+
+To judge how well a model works, the data is split into a training set and a test set. The model learns from the training set and is then evaluated on the test set, which contains unseen examples. This split reveals overfitting, which happens when a model memorizes the training data and performs poorly on new data. Cross-validation repeats the split several times for a more reliable estimate.
+
+Forecasting is a prediction task where the goal is to estimate future values, such as next quarter's sales, from historical time series data. Common methods include moving averages, ARIMA, and gradient boosted trees. Forecast quality is measured with error metrics. RMSE penalizes large errors, while MAPE expresses the error as a percentage of the actual value, which makes it easy to explain to business stakeholders. A good practice is to compare any model against a simple baseline, such as predicting the previous period's value.
